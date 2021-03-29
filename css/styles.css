@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:gainsboro;
+  font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+}
+
+header, main, footer {
+  width: 55rem;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 5rem;
+}
+
+#problem .displayQuestion {
+  font-size: 1.75rem;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: 0 40px;
+}
+
+#answers ul {
+  padding: 0;
+  margin: 40px auto;
+  display:flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+#answers li {
+  font-size: 1.5rem;
+  margin: 10px 20px;
+  padding: 20px 30px;
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 8px 12px;
+  background-color: rgb(120, 170, 240);
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display:none;
+}
+
+.highlight {
+  background-color: lightgreen !important;
+}
+
+.wrong {
+  background-color: crimson !important;
+}
